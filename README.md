@@ -1,30 +1,16 @@
 <div align="center">
 
-# Nandan Kuchabal
+<h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=42&pause=1000&color=0EA5E9&center=true&vCenter=true&width=800&lines=Nandan+Kuchabal" />
+</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=8A2BE2&center=true&vCenter=true&width=700&lines=Embedded+Engineer;AIML+Enthusiast;Full+Stack+Developer;Building+Intelligent+Systems" />
+<h3>
+  <span style="color:#38BDF8;">
+    Embedded Engineer • AIML Enthusiast • Full Stack Developer
+  </span>
+</h3>
 
 <br>
 
-> Turning ideas into intelligent systems, one commit at a time.
-
-</div>
-
----
-
-## ⚡ Tech Stack
-
-<p align="center">
-  Python • C++ • Flutter • Firebase • PyTorch • OpenCV • Git
-</p>
-
----
-
-## 🚀 Current Focus
-
-- Far-Field Speech Recognition
-- Beamforming & Audio Processing
-- AI/ML Projects
-- Full Stack App Development
-
----
+```diff
++ Building intelligent systems where hardware meets AI
