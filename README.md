@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://chatgpt.com/s/m_6a128c651cb48191ade31a2128b2d4f0" width="100%" />
+<img src="intro.png" width="100%" />
 
 <br><br>
 
