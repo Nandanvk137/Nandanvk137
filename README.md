@@ -1,5 +1,132 @@
+
+
+```svg
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </linearGradient>
+
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="500" fill="url(#bg)"/>
+
+  <!-- Ambient glow -->
+  <circle cx="350" cy="120" r="180" fill="#1D4ED8" opacity="0.08"/>
+  <circle cx="1250" cy="350" r="220" fill="#2563EB" opacity="0.06"/>
+
+  <!-- Name -->
+  <text x="50%" y="170"
+        text-anchor="middle"
+        font-size="72"
+        font-family="Orbitron, monospace"
+        fill="url(#glow)"
+        letter-spacing="8"
+        filter="url(#softGlow)">
+    NANDAN KUCHABAL
+
+    <animate attributeName="opacity"
+             from="0"
+             to="1"
+             dur="2.5s"
+             fill="freeze" />
+  </text>
+
+  <!-- Animated line -->
+  <line x1="430" y1="215" x2="1170" y2="215"
+        stroke="#2563EB"
+        stroke-width="2"
+        opacity="0.7">
+    <animate attributeName="x2"
+             from="430"
+             to="1170"
+             dur="2s"
+             fill="freeze" />
+  </line>
+
+  <!-- Roles -->
+  <g font-family="JetBrains Mono, monospace"
+     font-size="28"
+     fill="#93C5FD"
+     text-anchor="middle">
+
+    <text x="420" y="320">
+      EMBEDDED ENGINEER
+      <animate attributeName="opacity"
+               values="0.4;1;0.4"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="800" y="320">
+      AIML ENTHUSIAST
+      <animate attributeName="opacity"
+               values="0.4;1;0.4"
+               dur="3s"
+               begin="0.7s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="1180" y="320">
+      FULL STACK DEVELOPER
+      <animate attributeName="opacity"
+               values="0.4;1;0.4"
+               dur="3s"
+               begin="1.4s"
+               repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Quote -->
+  <text x="50%"
+        y="430"
+        text-anchor="middle"
+        font-size="22"
+        font-family="JetBrains Mono, monospace"
+        fill="#64748B"
+        letter-spacing="2">
+    building intelligent systems where hardware meets ai.
+  </text>
+
+  <!-- Scanline effect -->
+  <rect x="0" y="0" width="1600" height="4" fill="#60A5FA" opacity="0.15">
+    <animate attributeName="y"
+             values="0;500;0"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </rect>
+
+</svg>
+```
+
+---
+
+Then add this to your `README.md`:
+
+```md
 <div align="center">
+  <img src="./intro.svg" width="100%" />
+</div>
+```
 
-<img src="intro.png" width="100%" />
+This gives you:
 
-
+* one-time cinematic name reveal
+* continuous animated role glow
+* subtle dark neon aesthetic
+* smooth GitHub dark-mode appearance
+* no artificial overdone hacker vibe
