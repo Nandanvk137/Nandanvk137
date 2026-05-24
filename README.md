@@ -1,16 +1,13 @@
 <div align="center">
 
-<h1>
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=42&pause=1000&color=0EA5E9&center=true&vCenter=true&width=800&lines=Nandan+Kuchabal" />
-</h1>
+# ɴᴀɴᴅᴀɴ ᴋᴜᴄʜᴀʙᴀʟ
 
-<h3>
-  <span style="color:#38BDF8;">
-    Embedded Engineer • AIML Enthusiast • Full Stack Developer
-  </span>
-</h3>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=1D4ED8&center=true&vCenter=true&width=700&lines=Embedded+Engineer;AIML+Enthusiast;Full+Stack+Developer" />
 
 <br>
 
-```diff
-+ Building intelligent systems where hardware meets AI
+<p align="center">
+<i>"building things that quietly speak for themselves."</i>
+</p>
+
+</div>
